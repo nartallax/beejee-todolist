@@ -114,7 +114,7 @@ export class TaskContainer {
 
 	updatePagination(pageNum, maxPageCount){
 		removeAllChildren(this.paginationContainer)
-		if(maxPageCount === 1){
+		if(maxPageCount < 2){
 			return
 		}
 		this.makePaginationButton("<<", 1, {locked: pageNum < 2})
