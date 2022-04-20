@@ -1,0 +1,13 @@
+{
+	"http": {
+		"port": 51375,
+		"request_size_limit": 1000000
+	},
+	"db": {
+		"host": "127.0.0.1",
+		"port": 5432,
+		"database": "beejee_test_task",
+		"user": "postgres",
+		"pwd_file": "./backend/db_pwd.txt"
+	}
+}
