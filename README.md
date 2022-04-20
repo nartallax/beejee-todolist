@@ -8,4 +8,4 @@ Put password text in `backend/db_pwd.txt` file (or wherever you configured its l
 
 ## Run
 
-`node ./backend/back.js` (working directory IS important).q
+`node ./backend/back.js` (working directory IS important).
